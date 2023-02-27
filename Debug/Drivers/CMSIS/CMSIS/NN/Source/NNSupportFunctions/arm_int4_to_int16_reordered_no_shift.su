@@ -1,0 +1,1 @@
+arm_int4_to_int16_reordered_no_shift.c:54:6:arm_int4_to_int16_reordered_no_shift	20	static,ignoring_inline_asm

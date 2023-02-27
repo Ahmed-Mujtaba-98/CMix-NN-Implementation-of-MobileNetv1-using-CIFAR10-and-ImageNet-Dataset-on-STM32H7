@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScratchFile FileVersion="3.0">
+  <FileVersion>3.0</FileVersion>
+  <Workspace>
+    <WorkspaceType>Single-project</WorkspaceType>
+    <WorkspacePath>C:\Users\Ahmed Mujtaba\git\mobilenet_v1_stm32_cmsis_nn\</WorkspacePath>
+    <underRoot>true</underRoot>
+    <TrustZone>0</TrustZone>
+    <HAL_Driver>C:\Users\Ahmed Mujtaba\STM32Cube\Repository\STM32Cube_FW_H7_V1.3.2</HAL_Driver>
+    <CMSIS>Drivers/CMSIS</CMSIS>
+    <Toolchain>STM32CubeIDE</Toolchain>
+    <IocFile>intq-mobilenet-v1.ioc</IocFile>
+    <Project>
+      <ProjectName>intq-mobilenet-v1</ProjectName>
+      <ProjectNature>C</ProjectNature>
+      <Secure/>
+      <filestoremove/>
+      <sourceEntriesToRemove>
+        <sourceEntry/>
+      </sourceEntriesToRemove>
+      <configs>
+        <config>
+          <name>intq-mobilenet-v1</name>
+          <mainSourceRepo>Src</mainSourceRepo>
+          <sourceStructure>Basic</sourceStructure>
+          <device>STM32H743ZITx</device>
+          <cpucore>ARM Cortex-M7</cpucore>
+          <fpu>DP</fpu>
+          <memories>
+            <memory access="xrw" name="DTCMRAM" size="128" start="0x20000000"/>
+            <memory access="xrw" name="RAM_D1" size="512" start="0x24000000"/>
+            <memory access="xrw" name="RAM_D2" size="288" start="0x30000000"/>
+            <memory access="xrw" name="RAM_D3" size="64" start="0x38000000"/>
+            <memory access="xrw" name="ITCMRAM" size="64" start="0x00000000"/>
+            <memory access="rx" name="FLASH" size="2048" start="0x8000000"/>
+          </memories>
+          <startup>C:\Users\Ahmed Mujtaba\STM32Cube\Repository\STM32Cube_FW_H7_V1.3.2\Drivers\CMSIS\Device\ST\STM32H7xx\Source\Templates\gcc\startup_stm32h743xx.s</startup>
+          <LinkSettings>
+            <LinkAdditionalLibs/>
+          </LinkSettings>
+          <heapSize>0x0</heapSize>
+          <stackSize>0x400</stackSize>
+          <board>NUCLEO-H743ZI</board>
+          <debugprobe>swd</debugprobe>
+          <optimization>2</optimization>
+          <Aincludes>
+            <include/>
+          </Aincludes>
+          <Adefines/>
+          <Cdefines>
+            <define>USE_HAL_DRIVER</define>
+            <define>STM32H743xx</define>
+          </Cdefines>
+          <Ldefines/>
+          <Cincludes>
+            <include>Inc</include>
+            <include>Drivers\STM32H7xx_HAL_Driver\Inc</include>
+            <include>Drivers\STM32H7xx_HAL_Driver\Inc\Legacy</include>
+            <include>Drivers\CMSIS\Device\ST\STM32H7xx\Include</include>
+            <include>Drivers\CMSIS\Include</include>
+          </Cincludes>
+          <definestoremove>
+            <Adefines/>
+            <Cdefines>
+              <define>USE_FULL_LL_DRIVER</define>
+              <define>MBEDTLS_CONFIG_FILE="mbedtls_config.h"</define>
+              <define>USE_FULL_ASSERT=1U</define>
+            </Cdefines>
+            <Ldefines/>
+          </definestoremove>
+          <inctoremove>
+            <Aincludes>
+              <include/>
+            </Aincludes>
+            <Cincludes/>
+          </inctoremove>
+        </config>
+      </configs>
+      <copyAsReference>false</copyAsReference>
+      <sourceEntries>
+        <sourceEntry>
+          <name>Src</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Drivers</name>
+        </sourceEntry>
+      </sourceEntries>
+      <Groups/>
+    </Project>
+  </Workspace>
+</ScratchFile>

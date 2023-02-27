@@ -1,0 +1,2 @@
+arm_nn_mat_mult_kernel_int4_int16_reordered.c:46:15:int4_quant	0	static
+arm_nn_mat_mult_kernel_int4_int16_reordered.c:143:13:arm_nn_mat_mult_kernel_int4_int16_reordered	96	static,ignoring_inline_asm

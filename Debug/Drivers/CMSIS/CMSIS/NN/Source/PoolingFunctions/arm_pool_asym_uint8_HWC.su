@@ -1,0 +1,4 @@
+arm_pool_asym_uint8_HWC.c:55:13:compare_and_replace_if_larger_uint8	28	static
+arm_pool_asym_uint8_HWC.c:87:13:accumulate_uint8_to_int16	24	static,ignoring_inline_asm
+arm_pool_asym_uint8_HWC.c:167:1:arm_maxpool_asym_uint8_HWC	72	static
+arm_pool_asym_uint8_HWC.c:289:1:arm_avepool_asym_uint8_HWC	96	static

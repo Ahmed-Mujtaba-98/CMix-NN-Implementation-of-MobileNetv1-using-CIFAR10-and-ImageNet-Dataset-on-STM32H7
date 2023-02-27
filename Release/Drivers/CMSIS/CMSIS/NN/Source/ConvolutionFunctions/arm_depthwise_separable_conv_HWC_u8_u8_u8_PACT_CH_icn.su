@@ -1,0 +1,1 @@
+arm_depthwise_separable_conv_HWC_u8_u8_u8_PACT_CH_icn.c:82:1:arm_depthwise_separable_conv_HWC_u8_u8_u8_PACT_CH_icn	224	static,ignoring_inline_asm
