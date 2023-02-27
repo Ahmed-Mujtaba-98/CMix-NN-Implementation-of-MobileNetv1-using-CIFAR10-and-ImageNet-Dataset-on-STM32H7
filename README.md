@@ -1,7 +1,7 @@
 # Implementation of MobileNetv1 with Depth Multiplier (0.25) using CIFAR10 and ImageNet Dataset on STM32H7 NUCLEO
 Please cite this [paper](https://ieeexplore.ieee.org/document/9881566) when using the code.
 
----
+```bash
 @article{mujtaba2022low,
   title={Low Latency Implementations of CNN for Resource-Constrained IoT Devices},
   author={Mujtaba, Ahmed and Lee, Wai-Kong and Hwang, Seong Oun},
@@ -12,7 +12,7 @@ Please cite this [paper](https://ieeexplore.ieee.org/document/9881566) when usin
   year={2022},
   publisher={IEEE}
 }
----
+```
 
 Below are the implementation details:
 
